@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/*
+Auxiliary 1: #F58A0C
+Auxiliary 2: #18F545
+Main Color: #f53d00
+Auxiliary 4: #18B0F5
+Auxiliary 5: #F50C2D
+*/
+
+html 	{padding: 2%;}
+body 	{display: flex;	background-color: nul;}
+h1   	{margin-top: 25px;	text-align: left;	font-family: "Cinzel Decorative";	color: nul;}
+h2 		{margin-top: 25px;	text-align: center;	font-family: "Cinzel Decorative";	color: nul;}
+h3 		{margin-top: 25px;	text-align: left;	font-family: "Belda Norm Regular";	color: nul;}
+h5 		{margin-top: 25px;	text-align: center;	font-family: "Cinzel";				color: nul;}
+h6 		{text-align: center;	font-family:'Belda Norm Regular';}
+p 		{margin-top: 25px;	text-align: left;	font-family: "Belda Norm Regular";	color: nul;}
+img		{height: auto;}
+
+/*Navbar Items*/
+.navbar 			{margin: 0% 2% 0% 2%;}
+.navbar-brand		{margin-right: 50px;	font-family: "Cinzel Decorative";}
+.personallogo		{height: 50px;			margin-left: 20px;}
+.nav-link			{margin-right:20px;	font-family: "Cinzel Decorative";	color: nul;}
+
+
+
+.navbar-brand		{margin-right: 50px;	font-family: "Cinzel Decorative";}
+.personallogo		{height: 50px;			margin-left: 20px;}
+.nav-link			{margin-right:20px;	font-family: "Cinzel Decorative"; color: #18B0F5;}
+
+
+/* Page Two Items*/
+.bkg-dark {background-color: rgba(0,0,2,1.00) !important;}
+.sectionOne	{display: flex;}
+.mainOne {display: flex;	width: 50%;	flex-direction: column;}
+.sectionOne-mainHeader {display: inline-flex;}
+.sectionOne-subHeader {display: inline-flex;}
+.sectionOne-paraText {display: inline-flex;}
+.asideOne 	{display: flex;	width: 50%; flex-direction: column; justify-content: center;}
+
+@media screen and (max-width:769px) {
+.notOnDesktop {
+	display: block;
+	text-align: right;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 96%;
+}
+#content .notOnDesktop input {
+	height: 28px;
+}
+#mainContent {
+	padding-top: 0px;
+	float: none;
+	width: 96%;
+}
+#sidebar input {
+	display: none;
+}
+#mainwrapper #content #sidebar {
+	float: none;
+	width: 92%;
+	padding-top: 13px;
+	overflow: auto;
+	margin-top: 3px;
+	margin-left: 2%;
+	padding-bottom: 13px;
+}
+#content #sidebar #adimage {
+	width: 60%;
+	margin-top: 0px;
+	float: left;
+}
+#content #sidebar nav {
+	width: 36%;
+	float: left;
+	padding-left: 4%;
+}
+#sidebar nav ul {
+	margin-top: 0px;
+}
+footer {
+	width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#content footer article {
+	width: 46%;
+}
+#mainwrapper header {
+	width: 100%;
+}
+}
+
+@media screen and (max-width:480px) {
+#mainwrapper header #logo {
+	width: 96%;
+	margin-left: 2%;
+}
+#mainwrapper header nav {
+	text-align: center;
+	background-color: rgba(255,255,255,1.00);
+	width: 98%;
+}
+#content #sidebar #adimage {
+	width: 100%;
+}
+#content #sidebar nav {
+	width: 96%;
+	padding-top: 7px;
+}
+#sidebar nav ul li {
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+}
+#mainwrapper #content #sidebar {
+	padding-bottom: 0px;
+}
+#content .notOnDesktop {
+	width: 100%;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#content .notOnDesktop input {
+	width: 80%;
+	text-align: center;
+}
+#content #mainContent h3 {
+	font-size: 14px;
+}
+#content footer article {
+	width: 96%;
+}
+}
+
+@media (min-width:768px) and (max-width:1200px){
+	.unique-push-right	{margin-left: 700px;}
+}
+
+@media (min-width:1200px){
+	.unique-push-right	{margin-left: 900px;}
+}
+
+/*Dark Mode Items*/
+.darkmode--activated {
+	
+}
